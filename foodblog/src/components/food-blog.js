@@ -75,10 +75,10 @@ const FoodBlog = () => {
         ))}
       </div>
       <div className="next-arrow" onClick={scrollRight}>
-        <span>Next &gt;</span>
+        <span><i class="fa-solid fa-lg fa-angles-right"></i></span>
       </div>
       <div className="next-arrow" style={{ left: 0 }} onClick={scrollLeft}>
-        <span>&lt; Prev</span>
+        <span><i class="fa-solid fa-lg fa-angles-left"></i></span>
       </div>
     </div>
     <Section2/>
